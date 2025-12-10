@@ -49,7 +49,7 @@ export default function Page() {
             </div>
 
             {/* Imagen en foreground */}
-            <div className="w-[40%] h-[78vh] rounded-xl overflow-hidden shadow-xl">
+            <div className="w-[40%] max-h-[60vh] rounded-xl overflow-hidden shadow-xl">
               <Image
                 src="/estudios.jpg"
                 alt="Persona estudiando"

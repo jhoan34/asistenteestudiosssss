@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function Page() {
   const [time, setTime] = useState("00:00:00");

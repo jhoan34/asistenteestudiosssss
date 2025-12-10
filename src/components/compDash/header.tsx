@@ -38,7 +38,7 @@ export function Header() {
           <div>
             <Link
               href="/"
-              className="text-3xl font-bold text-blue-800 hover:underline"
+              className="ml-4 uppercase max-text-2xl font-bold text-blue-800 hover:underline"
             >
               AsistStudysAi
             </Link>
@@ -51,7 +51,7 @@ export function Header() {
                     <Link href={`${ele.href}`}>
                       <Button
                         variant="ghost"
-                        className={`w-full justify-start text-left px-4 py-2 rounded-lg text-lg ${
+                        className={`capitalize w-full justify-start text-left px-4 py-2 rounded-lg text-lg ${
                           isActive
                             ? "bg-blue-500 text-white"
                             : "hover:bg-blue-200 text-blue-800"
